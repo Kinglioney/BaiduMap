@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1828302E1F3F09E90071D2A0 /* BaiduMapTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828302D1F3F09E90071D2A0 /* BaiduMapTool.m */; };
 		18577E921F3E0CFF00217FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18577E911F3E0CFF00217FAB /* main.m */; };
 		18577E951F3E0CFF00217FAB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18577E941F3E0CFF00217FAB /* AppDelegate.mm */; };
 		18577E981F3E0CFF00217FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18577E971F3E0CFF00217FAB /* ViewController.m */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1828302C1F3F09E90071D2A0 /* BaiduMapTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMapTool.h; sourceTree = "<group>"; };
+		1828302D1F3F09E90071D2A0 /* BaiduMapTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMapTool.m; sourceTree = "<group>"; };
+		1828302F1F3F0E130071D2A0 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		18577E8D1F3E0CFF00217FAB /* BaiduMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18577E911F3E0CFF00217FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18577E931F3E0CFF00217FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				18577E941F3E0CFF00217FAB /* AppDelegate.mm */,
 				18577E961F3E0CFF00217FAB /* ViewController.h */,
 				18577E971F3E0CFF00217FAB /* ViewController.m */,
+				1828302C1F3F09E90071D2A0 /* BaiduMapTool.h */,
+				1828302D1F3F09E90071D2A0 /* BaiduMapTool.m */,
 				18577E991F3E0CFF00217FAB /* Main.storyboard */,
 				18577E9C1F3E0CFF00217FAB /* Assets.xcassets */,
 				18577E9E1F3E0CFF00217FAB /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 		18577E901F3E0CFF00217FAB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1828302F1F3F0E130071D2A0 /* Singleton.h */,
 				18577E911F3E0CFF00217FAB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -353,6 +360,7 @@
 			files = (
 				18577E981F3E0CFF00217FAB /* ViewController.m in Sources */,
 				18577E951F3E0CFF00217FAB /* AppDelegate.mm in Sources */,
+				1828302E1F3F09E90071D2A0 /* BaiduMapTool.m in Sources */,
 				18577E921F3E0CFF00217FAB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
